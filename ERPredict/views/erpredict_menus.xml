@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="erpredict_menu_root" name="ERPredict"/>
+    <menuitem id="erpredict_menu_sales" name="Sales"
+              parent="erpredict_menu_root"
+              action="erpredict_sales_action"/>
+</odoo>
